@@ -21,10 +21,10 @@ namespace Delegate_project
 
                     employees.Add(new Employee
                     {
-                    Name = $"Employee {i}",                    // name of employee (employee[i])
-                    Salary = Random.Shared.Next(2000, 6001),  // salary include value between (2000 , 6000)
-                    Deduction = Random.Shared.Next(0, 501),   //Deduction include value between (0 , 500)
-                    Bonus = Random.Shared.Next(0, 1001)       //Bonus include value between (0 , 1001)
+                    Name = $"Employee {i}",                                 // name of employee (employee[i])
+                    Salary = Random.Shared.Next(2000, 6001),                // salary include value between (2000 , 6000)
+                    Deduction = Random.Shared.Next(0, 501),                 //Deduction include value between (0 , 500)
+                    Bonus = Random.Shared.Next(0, 1001)                     //Bonus include value between (0 , 1001)
                     });
                 }
             //CalculateSalries(employees , 4000);                 //call the method 
